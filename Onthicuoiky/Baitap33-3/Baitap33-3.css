@@ -1,0 +1,84 @@
+/* Căn chỉnh tiêu đề */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Căn chỉnh lưới (grid) */
+.content {
+    padding: 40px 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.card .icon {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+/* Căn chỉnh chân trang */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

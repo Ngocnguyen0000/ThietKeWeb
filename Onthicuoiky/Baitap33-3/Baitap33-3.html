@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout</title>
+    <link rel="stylesheet" href="./Baitap33-3.css">
+    <style>
+        /* Basic styling for the menu */
+        .menu {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            transition: background-color 0.3s;
+        }
+        .menu a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Thanh menu -->
+    <nav class="menu">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Phần tiêu đề -->
+    <header class="header">
+        <h1>A warm welcome!</h1>
+        <p>Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?</p>
+        <a href="#" class="button">Call to action</a>
+    </header>
+
+    <!-- Phần nội dung -->
+    <section class="content">
+        <div class="grid-container">
+            <!-- Hộp đầu tiên -->
+            <div class="card">
+                <div class="icon">📄</div>
+                <h3>Fresh new layout</h3>
+                <p>With CSS Grid, we’ve created a fresh new layout for this template!</p>
+            </div>
+
+            <!-- Hộp thứ hai -->
+            <div class="card">
+                <div class="icon">⬇️</div>
+                <h3>Free to download</h3>
+                <p>As always, you have a powerful collection of free templates.</p>
+            </div>
+
+            <!-- Hộp thứ ba -->
+            <div class="card">
+                <div class="icon">📄</div>
+                <h3>Jumbotron hero header</h3>
+                <p>The heroic part of this template is the jumbotron hero header!</p>
+            </div>
+
+            <!-- Hộp thứ tư -->
+            <div class="card">
+                <div class="icon">🅱️</div>
+                <h3>Feature boxes</h3>
+                <p>We've created some custom feature boxes using simple icons!</p>
+            </div>
+
+            <!-- Hộp thứ năm -->
+            <div class="card">
+                <div class="icon">🛠️</div>
+                <h3>Simple clean code</h3>
+                <p>We keep our code clean and easy to maintain!</p>
+            </div>
+
+            <!-- Hộp thứ sáu -->
+            <div class="card">
+                <div class="icon">🔒</div>
+                <h3>A name you trust</h3>
+                <p>Our templates have been trusted by many users since 2013!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phần chân trang -->
+    <footer class="footer">
+        <p>Copyright © Your Website 2023</p>
+    </footer>
+
+</body>
+</html>
