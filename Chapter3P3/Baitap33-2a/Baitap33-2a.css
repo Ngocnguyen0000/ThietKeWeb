@@ -1,0 +1,53 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 80vh;
+    grid-template-areas:
+        "item1 item1 item2"
+        "item3 item4 item4"
+        "item3 item5 item6"
+        ". item5 item6";
+}
+
+.item {
+    background-color: #a5f3fc;
+    border: 2px solid #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.item1 {
+    grid-area: item1;
+    background-color: #99f7ab; /* Màu xanh nhạt */
+}
+
+.item2 {
+    grid-area: item2;
+    background-color: #ffd6a5; /* Màu cam nhạt */
+}
+
+.item3 {
+    grid-area: item3;
+    background-color: #72ddf7; /* Màu xanh dương đậm */
+}
+
+.item4 {
+    grid-area: item4;
+    background-color: #ffafcc; /* Màu hồng nhạt */
+}
+
+.item5 {
+    grid-area: item5;
+    background-color: #caffbf; /* Màu xanh lá nhạt */
+}
+
+.item6 {
+    grid-area: item6;
+    background-color: #ff9f80; /* Màu cam đậm */
+}

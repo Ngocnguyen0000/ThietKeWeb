@@ -1,0 +1,179 @@
+<!-- <!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Ký</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            box-sizing: border-box;
+            
+            color: #fff;
+        }
+
+        /* Màn hình nhỏ hơn 640px */
+        @media (max-width: 640px) {
+            .form-container {
+                background-color: teal;
+                color: white;
+            }
+        }
+
+        /* Màn hình từ 641px đến 768px */
+        @media (min-width: 641px) and (max-width: 768px) {
+            .form-container {
+                background-color: purple;
+                color: white;
+            }
+        }
+
+        /* Màn hình lớn hơn 1024px */
+        @media (min-width: 1024px) {
+            .form-container {
+                background-color: blue;
+                max-width: 800px;
+                color: white;
+            }
+        }
+
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: none;
+
+        }
+
+
+
+
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+
+        <form action="#">
+            <label for="name">Họ tên</label>
+            <input type="text" id="name" name="name">
+
+            <label for="dob">Ngày sinh</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone">SĐT</label>
+            <input type="tel" id="phone" name="phone">
+
+            <button type="submit">Đăng ký</button>
+        </form>
+    </div>
+</body>
+
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai32.1</title>
+    <style>
+        .form-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form {
+            justify-content: center;
+            align-items: center;
+            padding: 1%;
+
+        }
+
+        div {
+            border: 0.5px solid whitesmoke;
+        }
+
+        @media (max-width: 640px) {
+            .form-container {
+                background-color: green;
+                color: white;
+            }
+        }
+
+        @media (max-width: 1024px) and (min-width: 768px) {
+            .form-container {
+                background-color: purple;
+                color: white;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .form-container {
+                background-color: blue;
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form class="form-container">
+        <div>
+            <table>
+
+                <tr>
+                    <td>Họ tên</td>
+                    <td><input type="text" name="HoTen" id="HoTen"></td>
+                </tr>
+
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td><input type="date" name="NS" id="NS"></td>
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email " name="email" id="email"></td>
+                </tr>
+
+                <tr>
+                    <td>Số điện thoại</td>
+                    <td><input type="text" name="sdt" id="sdt"></td>
+                </tr>
+
+                <td> <input type="submit" value="Đăng kí">
+        </div>
+        </table>
+    </form>
+
+</body>
+
+</html>

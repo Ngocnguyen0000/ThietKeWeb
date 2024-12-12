@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị hình ảnh thành phố</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            border: 5px solid transparent;
+            margin-bottom: 20px;
+
+        }
+        img.active {
+            border-color: crimson;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .button {
+            padding: 30px 50px;
+            background-color: crimson;
+            color: yellow;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+        .button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    
+    
+
+    <img id="cityImage" src="./353964143_654780202857407_1723311754798529532_n.jpg" alt="Hình ảnh thành phố" class="active">
+
+    <div class="buttons">
+        <button class="button" onclick="changeImage('./353964143_654780202857407_1723311754798529532_n.jpg')">Hà Nội</button>
+        <button class="button" onclick="changeImage('./354214786_1638819623293295_970827031411801792_n.jpg')">Huế</button>
+        <button class="button" onclick="changeImage('./462544700_589005194082680_5271063051154606064_n.jpg')">Đà Nẵng</button>
+    </div>
+
+    <script>
+        function changeImage(imageSrc) {
+            const cityImage = document.getElementById('cityImage');
+            cityImage.src = imageSrc;
+            cityImage.classList.add('active');
+        }
+    </script>
+</body>
+</html>

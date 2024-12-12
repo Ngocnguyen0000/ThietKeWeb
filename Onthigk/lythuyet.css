@@ -1,0 +1,27 @@
+ /* 1. Grid-template-columns: Xđ so luong va kich thuoc cac cot trong luoi */
+ /*  Trong ví dụ trên, lưới có 3 cột với kích thước lần lượt là 100px, 
+        200px và một cột tự động (auto) chiếm không gian còn lại. */
+ .grid-container {
+    display: grid;
+    grid-template-columns: 100px 200px auto;
+}
+ /* 2. Grid-template-rows: Xác định số lượng và kích thước các hàng trong lưới.*/
+/* 3. Grid-column: Xác định phạm vi của phần tử theo cột (bắt đầu từ cột nào đến cột nào). */
+.grid-item {
+    grid-column: 1 / 3;
+}
+
+
+/* 4. Grid-row: Xác định phạm vi của phần tử theo hàng (bắt đầu từ hàng nào đến hàng nào). --> */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 200px auto;
+    grid-template-rows: 50px 150px 100px;
+}
+
+.grid-item {
+    grid-column: 1 / 3; /* Trải dài từ cột 1 đến cột 3 */
+    grid-row: 2 / 4; /* Trải dài từ hàng 2 đến hàng 4 */
+}
+

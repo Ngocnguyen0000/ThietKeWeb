@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            border: 2px dashed black; 
+            padding: 20px; 
+            height: 20vh; 
+        }
+    </style>
+    <script>
+        function changeBackgroundColor() {
+            document.querySelector('.container').style.backgroundColor = "lightblue"; 
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Nhấn nút để thay đổi nền</h1>
+        <button onclick="changeBackgroundColor()">Thay đổi màu nền</button>
+    </div>
+</body>
+</html>

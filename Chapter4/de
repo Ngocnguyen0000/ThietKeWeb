@@ -1,0 +1,6 @@
+Khởi tạo 1 mảng có 10 số nguyên
+5, 1, -5, -6, 21, 5, 6
+    - Cho biết có bao nhiêu số nguyên chăn;
+- Tính trung bình cộng các số nguyên chẵn #
+    - Tìm và thay thế những phần tử có giá trị 5 bằng 10, in danh sách các phần tử trong mảng lên màn hình
+Sử dụng around function

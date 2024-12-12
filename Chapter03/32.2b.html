@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex Column Chart</title>
+  <style>
+    .column-chart {
+      display: flex;
+      align-items: flex-end;
+      height: 300px;
+      width: 300px;
+      border: 1px solid #000;
+    }
+
+    .column {
+      width: 20%;
+      margin: 0 5px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .segment {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Đoạn màu xanh */
+    .green {
+      background-color: teal;
+    }
+
+    /* Đoạn màu vàng */
+    .yellow {
+      background-color: yellow;
+      color: #000; /* Màu chữ đen cho nền vàng */
+    }
+
+    /* Chiều cao của các đoạn theo phần trăm */
+    .col1 .segment1 { height: 25%; }
+    .col1 .segment2 { height: 20%; }
+    
+    .col2 .segment1 { height: 45%; }
+    .col2 .segment2 { height: 40%; }
+    
+    .col3 .segment1 { height: 15%; }
+    .col3 .segment2 { height: 50%; }
+    
+    .col4 .segment1 { height: 30%; }
+    .col4 .segment2 { height: 40%; }
+  </style>
+</head>
+<body>
+  <div class="column-chart">
+    <div class="column col1">
+      <div class="segment green">25%</div>
+      <div class="segment yellow">20%</div>
+    </div>
+    
+    <div class="column col2">
+      <div class="segment green">45%</div>
+      <div class="segment yellow">40%</div>
+    </div>
+    
+    <div class="column col3">
+      <div class="segment green">15%</div>
+      <div class="segment yellow">50%</div>
+    </div>
+    
+    <div class="column col4">
+      <div class="segment green">30%</div>
+      <div class="segment yellow">40%</div>
+    </div>
+  </div>
+</body>
+</html>

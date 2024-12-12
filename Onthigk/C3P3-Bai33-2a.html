@@ -1,0 +1,75 @@
+<!-- Bài tập 33-2, sử dụng grid-template-areas Và grid-area tạo layout
+theo mẫu sau: (demo1 , demo2) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 33-2C3P3</title>
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "item1 item1 item2"
+            "item3 item4 item4"
+            "item3 item5 item6";
+    }
+
+    .grid-item {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        font-size: 20px;
+        text-align: center;
+        margin: 3px;
+    }
+
+    .item1 {
+        grid-area: item1;
+        background-color: blue;
+    }
+
+    .item2 {
+        grid-area: item2;
+        background-color: yellow;
+    }
+
+    .item3 {
+        grid-area: item3;
+        background-color: rgb(255, 94, 0);
+    }
+
+    .item4 {
+        grid-area: item4;
+        background-color: rgb(255, 0, 212);
+    }
+
+    .item5 {
+        grid-area: item5;
+        background-color: rgb(0, 42, 255);
+    }
+
+    .item6 {
+        grid-area: item6;
+        background-color: rgb(214, 151, 203);
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item item1">1</div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>
+        <div class="grid-item item4">4</div>
+        <div class="grid-item item5">5</div>
+        <div class="grid-item item6">6</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Thanh điều hướng */
+.navbar {
+    background-color: #ff6347;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Phần đăng nhập */
+.login-section {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-section form {
+    display: inline-block;
+}
+
+.login-section label {
+    margin-right: 10px;
+}
+
+/* Bố cục chính */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.sidebar, .main-column {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tính năng */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature {
+    background-color: #dcdcdc;
+    padding: 20px;
+    text-align: center;
+    width: 18%;
+}
+
+/* Center item */
+.center-item {
+    background-color: #98fb98;
+    padding: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Biểu đồ */
+.chart {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.bar {
+    background-color: #ff6347;
+    width: 10%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d3d3d3;
+    padding: 20px;
+}
+
+.footer-box {
+    width: 30%;
+    background-color: #f0e68c;
+    padding: 20px;
+    text-align: center;
+}
+
+</style>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Hỗ trợ</a></li>
+                <li><a href="#">Tải ứng dụng</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Phần tìm kiếm đăng nhập -->
+    <div class="login-section">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </form>
+    </div>
+
+    <!-- Phần bố cục 3 cột -->
+    <div class="main-content">
+        <aside class="sidebar">Sidebar one</aside>
+        <div class="main-column">Main column</div>
+        <aside class="sidebar">Sidebar two</aside>
+    </div>
+
+    <!-- Phần tính năng -->
+    <div class="features">
+        <div class="feature">Feature 1</div>
+        <div class="feature">Feature 2</div>
+        <div class="feature">Feature 3</div>
+        <div class="feature">Feature 4</div>
+        <div class="feature">Feature 5</div>
+    </div>
+
+    <!-- Khối giữa -->
+    <div class="center-item">
+        <p>Center item</p>
+    </div>
+
+    <!-- Biểu đồ cột -->
+    <div class="chart">
+        <div class="bar">15%</div>
+        <div class="bar">20%</div>
+        <div class="bar">40%</div>
+        <div class="bar">50%</div>
+        <div class="bar">80%</div>
+        <div class="bar">40%</div>
+        <div class="bar">10%</div>
+        <div class="bar">20%</div>
+    </div>
+
+    <!-- Phần footer -->
+    <footer>
+        <div class="footer-box">Footer content 1</div>
+        <div class="footer-box">Footer content 2</div>
+        <div class="footer-box">Footer content 3</div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị hình ảnh thành phố</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            border: 5px solid transparent;
+            margin-bottom: 20px;
+
+        }
+        img.active {
+            border-color: crimson;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .button {
+            padding: 30px 50px;
+            background-color: crimson;
+            color: yellow;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+        .button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <!-- Vùng hiển thị hình ảnh -->
+    <img id="cityImage" src="/Chuong 4/cityImage/hanoi.jpg" alt="Hình ảnh thành phố" class="active">
+
+    <!-- Các nút chọn thành phố -->
+    <div class="buttons">
+        <button class="button" onclick="changeImage('/Chuong 4/cityImage/hanoi.jpg')">Hà Nội</button>
+        <button class="button" onclick="changeImage('/Chuong 4/cityImage/hue.jpg')">Huế</button>
+        <button class="button" onclick="changeImage('/Chuong 4/cityImage/danang.jpg')">Đà Nẵng</button>
+    </div>
+
+    <script>
+        // Hàm thay đổi hình ảnh khi nhấn nút
+        function changeImage(imageSrc) {
+            const cityImage = document.getElementById('cityImage');
+            cityImage.src = imageSrc;
+            cityImage.classList.add('active');
+        }
+    </script>
+</body>
+</html>
+
+<!-- code trong hàm 
+ c4: đặt code trong file js nhúng file vào web theo cú pháp scrip src ="cnvn.js"-->
+iu quáiii
+Kim Yến
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị thông tin thành phố</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+        .city-list {
+            width: 30%;
+        }
+        .city-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .city-list li {
+            font-size: 20px;
+            margin: 10px 0;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .city-list li:hover {
+            color: crimson;
+        }
+        .city-display {
+            border: 3px solid blue; /* Khung bao quanh */
+            padding: 10px; /* Khoảng cách bên trong khung */
+            border-radius: 5px; /* Bo góc cho khung */
+            box-sizing: border-box;
+            width: 65%;
+            text-align: center;
+        }
+        .city-display img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin: 0 auto; /* Căn giữa hình ảnh */
+            display: block;
+        }
+        .city-name {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Danh sách các thành phố -->
+    <div class="city-list">
+        <ul>
+            <li onmouseover="showCity('/Chuong 4/cityImage/hanoi.jpg', 'Thủ Đô Hà Nội')">Hà Nội</li>
+            <li onmouseover="showCity('/Chuong 4/cityImage/hue.jpg', 'Cố Đô Huế')">Huế</li>
+            <li onmouseover="showCity('/Chuong 4/cityImage/danang.jpg', 'Thành Phố Đà Nẵng')">Đà Nẵng</li>
+            <li onmouseover="showCity('/Chuong 4/cityImage/hcm.jpg', 'Thành Phố Hồ Chí Minh')">TP. HCM</li>
+        </ul>
+    </div>
+
+    <!-- Khu vực hiển thị -->
+    <div class="city-display">
+        <img id="cityImage" src="/Chuong 4/cityImage/hanoi.jpg" alt="Hình ảnh thành phố" class="active">
+        <p id="cityName" class="city-name">Thủ Đô Hà Nội</p>
+    </div>
+
+    <script>
+        // Hàm hiển thị hình ảnh và tên thành phố
+        function showCity(imageSrc, cityName) {
+            const cityImage = document.getElementById('cityImage');
+            const cityNameElement = document.getElementById('cityName');
+
+            // Thay đổi hình ảnh
+            cityImage.src = imageSrc;
+            cityImage.classList.add('active');
+
+            // Thay đổi tên thành phố
+            cityNameElement.textContent = cityName;
+        }
+    </script>
+</body>
+</html>

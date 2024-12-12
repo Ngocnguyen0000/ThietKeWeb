@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinary Blog Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Thanh điều hướng */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c3e50;
+    padding: 15px;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+/* Thanh tìm kiếm */
+.search-bar {
+    margin: 20px 0;
+    /* text-align: center; */
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 15px 20px;
+    margin-left: -10px;
+    border-radius: 4px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #3498db;
+}
+
+/* Gallery hình ảnh món ăn */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+</style>
+<body>
+    <!-- Thanh điều hướng -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Culinary Blog</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Thanh tìm kiếm -->
+    <div class="search-bar">
+        <input type="text" placeholder="Enter text here..." />
+        <span class="search-icon">🔍</span>
+        <button>Search</button>
+    </div>
+
+    <!-- Layout hình ảnh món ăn -->
+    <div class="gallery">
+        <img src="/Chapter03/img/z4891499599450_d7a265fe25bda2431ab0cabad6773609.jpg" alt="Dish 1">
+        <img src="/Chapter03/img/z4891499599450_d7a265fe25bda2431ab0cabad6773609.jpg" alt="Dish 2">
+        <img src="/Chapter03/img/z4891499599450_d7a265fe25bda2431ab0cabad6773609.jpg" alt="Dish 3">
+        <img src="/Chapter03/img/z4891499599450_d7a265fe25bda2431ab0cabad6773609.jpg" alt="Dish 4">
+        <img src="/Chapter03/img/z4891499599450_d7a265fe25bda2431ab0cabad6773609.jpg" alt="Dish 5">
+        <img src="/Chapter03/img/z4891499599450_d7a265fe25bda2431ab0cabad6773609.jpg" alt="Dish 6">
+    </div>
+</body>
+</html>

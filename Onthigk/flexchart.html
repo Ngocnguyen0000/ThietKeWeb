@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Chart Example</title>
+    <style>
+        /* Container for the flex chart */
+        .chart-container {
+            display: flex;
+            align-items: flex-end; /* Căn cuối các cột cho biểu đồ cột */
+            gap: 10px;
+            flex-basis: 300px;
+            background-color: #f8f9fa;
+
+            border: 1px solid #ddd;
+        }
+
+        /* Each bar in the chart */
+        .chart-bar {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            width: 50px;
+            background-color: #007bff;
+            color: white;
+            font-size: 1em;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Flexbox Chart Example</h1>
+    <div class="chart-container">
+        <div class="chart-bar" style="flex-basis: 60%;">60%</div>
+        <div class="chart-bar" style="flex-basis: 80%;">80%</div>
+        <div class="chart-bar" style="flex-basis: 40%;">40%</div>
+        <div class="chart-bar" style="flex-basis: 90%;">90%</div>
+        <div class="chart-bar" style="flex-basis: 50%;">50%</div>
+    </div>
+
+</body>
+</html>

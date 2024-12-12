@@ -1,0 +1,228 @@
+* Tổng quan CSS
+- Đơn vị tương đối
+em: kthuoc phong chu
+vw; % chiều rộng viewport
+vh: chiều cao
+%: giá trị % liên quan đến phần tử chứa nó
+
+- Ghi chú CSS /*...*/
+- Nhúng CSS có 4 cái
+1. Inliner Style CSS (Nhúng trực tiếp)
+<p style="border-style: dashed; border-width: medium;">Thuong mại điện tử</p>
+
+<body style="background-color: aliceblue;"></body>
+2. External Style Sheet (Nhúng bên ngoài)
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<head>
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+
+        p {
+            border-style: dashed;
+            border-width: medium;
+        }
+
+        /* p: bao một khối văn bản cần định nghĩa */
+        div {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+3. Internal Style Sheet (Nhúng bên trong)
+<style>
+    p {
+        border-style: dashed;
+        border-width: medium;
+    }
+</style>
+
+
+4. CSS Preprocessor (Nhúng trước)
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Nhúng thẻ qua id -->
+    <style>
+        div {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+
+        /* # khi sử dụng id */
+        #dong1 {
+            background-attachment: fixed;
+        }
+
+        /* . khi sử dụng class */
+        .color {
+            visibility: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="dong1" class="color">Div 1</div>
+    <div id="dong2">Div 2</div>
+
+</body>
+
+<!-- Nhúng thẻ kết hợp thẻ thành phần và class -->
+
+</html>
+
+<!-- Responsive Website -->
+<!-- Khai báo Viewport -->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<!-- Responsive Images: -->
+<!--  Sử dụng thẻ thuộc tính max-width, min-width và đơn vị tương đối (%) cho
+        hình ảnh;
+         Responsive Text Size:
+         Sử dụng đơn vị vw (viewport width) cho thuộc tính font-size -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<img src="/images/CaChepHoaRong.jpg“
+            style=" max-width: 70%; min-width: 70%; height: auto;">
+<h1 style="font-size: 10vw;">Responsive Text</h1>
+
+<!-- ví dụ -->
+<style>
+    img {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        border-radius: 10px;
+        display: block;
+    }
+
+    h1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    div {
+        border-radius: 10px;
+        border-style: groove;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 5px 5px #AAA;
+    }
+</style>
+
+<div>
+    <img src="/images/CaChepHoaRong.jpg">
+    <h1>Cá chép hoá rồng</h1>
+</div>
+
+<!-- Media CSS: Hỗ trợ tự động thay đổi layout theo kích thước của thiết bị hiển thị; -->
+@media not|only mediatype and (media feature) {
+CSS-Code;
+}
+
+<!-- Media CSS – Media Feature
+ aspect-ratio: Tỉ lệ giữa chiều rộng và chiều cao của viewport;
+ min-aspect-ratio: Tỉ lệ tối thiểu giữa chiều rộng và chiều cao của viewport;
+ max-aspect-ratio: Tỉ lệ tôi đa giữa chiều rộng và chiều cao của viewport;
+ color: Số bits cho mỗi màu sắc của device;
+ color-index: Số lượng màu sắc mà device có thể hiển thị;
+ device-aspect-ratio: Tỉ lệ giữa chiều rộng và chiều cao;
+ max-device-aspect-ratio: Tỉ lệ tối đa giữa chiều rộng và chiều cao;
+ min-device-aspect-ratio: Tỉ lệ tối thiểu giữa chiều rộng và chiều cao;
+ device-height: Chiều cao của device;
+ device-width: Chiều rộng của device 
+ height: Chiều cao của viewport;
+ width: Chiều rộng của viewport;
+ max-width: Chiều rộng tối đa của viewport;
+ min-width: Chiều rộng tối thiểu của viewport;
+ max-height: Chiều cao tối đa của viewport;
+ min-height: Chiều cao tối thiểu của viewport;
+ min-device-width: Chiều rộng tối thiểu của device;
+ max-device-width: Chiều rộng tối đa của device;
+ min-device-height: Chiều cao tối thiểu của device;
+ max-device-height: Chiều cao tối đa của device;
+ orientation: Định hướng của khung nhìn (xoay hoặc không xoay thiết bị);
+ resolution: Độ phân giải của thiết bị đầu ra (sử dụng dpi hoặc dpcm);-->
+
+<!-- Media CSS – Mobile First trong Responsive:Tuần tự tiến trình responsive, xuất phát từ màn hình nhỏ và xây dựng dần lên
+thiết bị có kích thước to, ta sử dụng tham số min-width trong media query; -->
+/*Smart phone nhỏ*/
+@media screen and (min-width: 240px){
+}
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px){
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (min-width: 480px){
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (min-width: 768px){
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (min-width: 1024px){
+}
+
+Media CSS
+ Nhúng file CSS tùy biến theo màn hình hiển thị;
+<link rel="stylesheet" media="screen and (min-width: 768px)" href="smallscreen.css">
+<link rel="stylesheet" media="screen and (min-width: 1024px)" href="widescreen.css">
+
+
+
+<!--  Tổng quan Flexbox Layout
+ Flex Container
+ Flex Items
+ Flex Responsive
+ -->
+
+<style>
+    .box {
+        background-color: blueviolet;
+        border-radius: 5px;
+        margin: 2px;
+        padding: 20px;
+        font-size: 20pt;
+    }
+</style>
+<div class="flex-container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+    <div class="box box6">6</div>
+    <div class="box box7">7</div>
+</div>
+
+<!-- display: flex | inline-flex
+ Xác định hiển thị theo định dạng Flexbox;
+ flex-direction: row (default) | row-reverse | column | column-reverse
+ Xác định hướng của main-axis để container sắp xếp các item; -->
+
+
+<div class="flex-container">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+    <div class="box box6">6</div>
+    <div class="box box7">7</div>
+</div>

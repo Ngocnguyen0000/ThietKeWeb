@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Content Change</title>
+
+    <style>
+        #dynamicText {
+            border: 2px solid red;
+            padding: 10px;
+            width: auto;
+        }
+    </style>
+
+    <script>
+        function changeContent() {
+            document.getElementById("dynamicText").innerHTML = "Nội dung này đã được thay đổi bởi JavaScript!";
+        }
+    </script>
+</head>
+<body>
+    <h1>Kiểm tra JavaScript nhúng</h1>
+    <p id="dynamicText">Nội dung </p>
+    <button onclick="changeContent()">Thay đổi nội dung</button>
+</body>
+</html>

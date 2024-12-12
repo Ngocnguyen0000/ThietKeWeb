@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+</head>
+<style>
+.grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+}
+.item {
+    background-color: rgb(243, 45, 230);
+    padding: 20px;
+    text-align: center;
+    flex-basis: 24%;
+    color: white;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+@media (max-width: 1023px) {
+    .item {
+        flex-basis: 48%;
+    }
+
+}
+
+</style>
+<body>
+    <div class="grid-container">
+        <div class="item item1">Sản phẩm 1</div>
+        <div class="item item2">Sản phẩm 2</div>
+        <div class="item item3">Sản phẩm 3</div>
+        <div class="item item4">Sản phẩm 4</div>
+        <div class="item item4">Sản phẩm 5</div>
+        <div class="item item4">Sản phẩm 6</div>
+        <div class="item item4">Sản phẩm 7</div>
+        <div class="item item4">Sản phẩm 8</div>
+
+    </div>
+</body>
+</html>

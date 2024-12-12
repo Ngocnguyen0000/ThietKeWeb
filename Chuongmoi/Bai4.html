@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị thông tin thành phố</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+        .city-list {
+            width: 30%;
+        }
+        .city-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .city-list li {
+            font-size: 20px;
+            margin: 10px 0;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .city-list li:hover {
+            color: crimson;
+        }
+        .city-display {
+            border: 3px solid blue; /* Khung bao quanh */
+            padding: 10px; /* Khoảng cách bên trong khung */
+            border-radius: 5px; /* Bo góc cho khung */
+            box-sizing: border-box;
+            width: 65%;
+            text-align: center;
+        }
+        .city-display img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin: 0 auto; /* Căn giữa hình ảnh */
+            display: block;
+        }
+        .city-name {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="city-list">
+        <ul>
+            <li onmouseover="showCity('./353964143_654780202857407_1723311754798529532_n.jpg', 'Thủ Đô Hà Nội')">Hà Nội</li>
+            <li onmouseover="showCity('./354214786_1638819623293295_970827031411801792_n.jpg', 'Cố Đô Huế')">Huế</li>
+            <li onmouseover="showCity('./462544700_589005194082680_5271063051154606064_n.jpg', 'Thành Phố Đà Nẵng')">Đà Nẵng</li>
+            <li onmouseover="showCity('./462564190_540231175575598_9182584716840021538_n.jpg', 'Thành Phố Hồ Chí Minh')">TP. HCM</li>
+        </ul>
+    </div>
+
+    <div class="city-display">
+        <img id="cityImage" src="./353964143_654780202857407_1723311754798529532_n.jpg" alt="Hình ảnh thành phố" class="active">
+        <p id="cityName" class="city-name">Thủ Đô Hà Nội</p>
+    </div>
+
+    <script>
+
+        function showCity(imageSrc, cityName) {
+            const cityImage = document.getElementById('cityImage');
+            const cityNameElement = document.getElementById('cityName');
+
+            cityImage.src = imageSrc;
+            cityImage.classList.add('active');
+
+            cityNameElement.textContent = cityName;
+        }
+    </script>
+</body>
+</html>

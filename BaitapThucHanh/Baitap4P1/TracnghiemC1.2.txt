@@ -1,0 +1,643 @@
+HTML là một phần của bộ tiêu chuẩn web nào?
+Hãy chọn một:
+a. World Wide Web Consortium (W3C)
+b. Web Hypertext Application Technology Working Group (WHATWG)
+c. Internet Engineering Task Force (IETF)
+d. National Aeronautics and Space Administration (NASA)
+Phản hồi
+The correct answer is: World Wide Web Consortium (W3C)
+Câu hỏi 2
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử nào được sử dụng để tạo một đoạn văn bản dưới dạng tiêu đề nhỏ hơn so với <h1>?
+Hãy chọn một:
+a. <h3>
+b. <h5>
+c. <h2>
+d. <h4>
+Phản hồi
+The correct answer is: <h2>
+Câu hỏi 3
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử <meta> có thuộc tính nào được sử dụng để xác định ngôn ngữ của trang web?
+Hãy chọn một:
+a. content
+b. name
+c. lang
+d. charset
+Phản hồi
+The correct answer is: lang
+Câu hỏi 4
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML5, phần tử <time> thường được sử dụng để làm gì?
+Hãy chọn một:
+a. Tiêu đề trang web
+b. Thông tin về thời gian hoặc ngày tháng
+c. Nội dung chính của trang web
+d. Danh sách liên kết
+Phản hồi
+The correct answer is: Thông tin về thời gian hoặc ngày tháng
+Câu hỏi 5
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử <input> có thuộc tính nào được sử dụng để xác định loại dữ liệu mà người dùng cần nhập (ví dụ: văn bản, số, email)?
+Hãy chọn một:
+a. type
+b. placeholder
+c. value
+d. name
+Phản hồi
+The correct answer is: type
+Câu hỏi 6
+Hoàn thành
+Đạt điểm 0,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, để tạo một dòng ngang ngăn cách nội dung, bạn sử dụng phần tử nào?
+Hãy chọn một:
+a. <hr>
+b. <line>
+c. <divider>
+d. <br>
+Phản hồi
+The correct answer is: <hr>
+Câu hỏi 7
+Hoàn thành
+Đạt điểm 0,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử nào được sử dụng để tạo một đoạn văn bản được gạch ngang (strikethrough)?
+Hãy chọn một:
+a. <s>
+b. <g>
+c. <u>
+d. <del>
+Phản hồi
+The correct answer is: <s>
+Câu hỏi 8
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, để tạo một liên kết mở ra một trang web trong cửa sổ mới, bạn sử dụng thuộc tính nào trong phần tử <a>?
+Hãy chọn một:
+a. title="New Window"
+b. rel="noopener"
+c. hreflang="en"
+d. target="_blank"
+Phản hồi
+The correct answer is: target="_blank"
+Câu hỏi 9
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Để tạo một đoạn văn bản in đậm trong HTML, bạn sử dụng phần tử nào?
+Hãy chọn một:
+a. <em>
+b. <strong>
+c. <a>
+d. <bold>
+Phản hồi
+The correct answer is: <strong>
+Câu hỏi 10
+Hoàn thành
+Đạt điểm 0,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử nào được sử dụng để yêu cầu trình duyệt web không xử lý các thẻ HTML chứa trong nó?
+Hãy chọn một:
+a. <xmp>
+b. <pre>
+c. <div>
+d. <code>
+Câu hỏi 11
+Hoàn thành
+Đạt điểm 0,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thuộc tính value của phần tử <textarea> được sử dụng để làm gì?
+Hãy chọn một:
+a. Xác định nội dung ban đầu của ô văn bản.
+b. Xác định màu sắc của ô văn bản.
+c. Xác định kích thước của ô văn bản.
+d. Xác định số lượng hàng (dòng) của ô văn bản.
+Phản hồi
+The correct answer is: Xác định nội dung ban đầu của ô văn bản.
+Câu hỏi 12
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thẻ HTML nào được sử dụng để đặt mã CSS trong một trang web?
+Hãy chọn một:
+a. <script>
+b. <link>
+c. <head>
+d. <style>
+Phản hồi
+The correct answer is: <style>
+Câu hỏi 13
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thuộc tính HTML nào được sử dụng để xác định tiêu đề của trang web trong thanh tiêu đề của trình duyệt?
+Hãy chọn một:
+a. description
+b. header
+c. name
+d. title
+Phản hồi
+The correct answer is: title
+Câu hỏi 14
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong đoạn mã sau: <meta name="viewport" content="width=device-width, initial-scale=1.0">, phần initial-scale=1.0 có tác dụng gì?
+Hãy chọn một:
+a. Xác định ngôn ngữ trang web.
+b. Chứa thông tin về tác giả của trang web.
+c. Xác định mô tả của trang web.
+d. Thiết lập tỷ lệ ban đầu để hiển thị trang web với kích thước ban đầu là 100% trên thiết bị di động.
+Phản hồi
+The correct answer is: Thiết lập tỷ lệ ban đầu để hiển thị trang web với kích thước ban đầu là 100% trên thiết bị di động.
+Câu hỏi 15
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, thẻ nào được sử dụng để tạo nội dung ghi chú trong code?
+Hãy chọn một:
+a. ***nội dung ghi chú***
+b. <!-- nội dung ghi chú -->
+c. //nội dung ghi chú
+Phản hồi
+The correct answer is: <!-- nội dung ghi chú -->
+Câu hỏi 16
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thẻ <a> được sử dụng để tạo liên kết tới trang web khác, văn bản hoặc tài liệu khác trên Internet, hoặc thậm chí tới cùng một trang web. Điều gì là cần thiết để thẻ <a> hoạt động?
+Hãy chọn một:
+a. Phải có màu nền cho liên kết
+b. Phải sử dụng thẻ <img> cùng với thẻ <a>
+c. Thuộc tính href phải được chỉ định
+d. Phải có tiêu đề cho liên kết
+Phản hồi
+The correct answer is: Thuộc tính href phải được chỉ định
+Câu hỏi 17
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thuộc tính nào trong thẻ <title> xác định tiêu đề của trang web trong thanh tiêu đề của trình duyệt?
+Hãy chọn một:
+a. title
+b. caption
+c. header
+d. Không cần thuộc tính, nội dung trong thẻ <title> là tiêu đề
+Phản hồi
+The correct answer is: Không cần thuộc tính, nội dung trong thẻ <title> là tiêu đề
+Câu hỏi 18
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thẻ <header> trong HTML thường được sử dụng để chứa nội dung gì?
+Hãy chọn một:
+a. Một đoạn văn bản mô tả
+b. Danh sách liên kết đến các trang web khác
+c. Phần tiêu đề hoặc tiêu đề của trang web hoặc phần tử HTML cụ thể
+d. Danh sách thông tin liên quan
+Phản hồi
+The correct answer is: Phần tiêu đề hoặc tiêu đề của trang web hoặc phần tử HTML cụ thể
+Câu hỏi 19
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thuộc tính alt trong thẻ <img> thường được sử dụng để làm gì?
+Hãy chọn một:
+a. Hiển thị văn bản mô tả hình ảnh khi hình ảnh không thể hiển thị
+b. Chỉ định kích thước của hình ảnh
+c. Thay đổi màu sắc của hình ảnh
+d. Đặt tên cho hình ảnh
+Phản hồi
+The correct answer is: Hiển thị văn bản mô tả hình ảnh khi hình ảnh không thể hiển thị
+Câu hỏi 20
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, thuộc tính rowspan trong HTML được sử dụng để làm gì trong bảng?
+Hãy chọn một:
+a. Kết hợp các ô (cells) theo chiều dọc
+b. Xác định số cột của bảng
+c. Đặt màu nền cho bảng
+d. Tạo tiêu đề cho bảng
+Phản hồi
+The correct answer is: Kết hợp các ô (cells) theo chiều dọc
+Câu hỏi 21
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thẻ <link> trong HTML được sử dụng để làm gì?
+Hãy chọn một:
+a. Tạo liên kết nội bộ trong trang web
+b. Liên kết với các tệp tài liệu bên ngoài, chẳng hạn như các tệp CSS
+c. Chèn một hình ảnh vào trang
+d. Xác định mô tả trang web
+Phản hồi
+The correct answer is: Liên kết với các tệp tài liệu bên ngoài, chẳng hạn như các tệp CSS
+Câu hỏi 22
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thuộc tính multiple của phần tử <select> được sử dụng để làm gì?
+Hãy chọn một:
+a. Xác định màu sắc của danh sách thả xuống.
+b. Cho phép người dùng chọn nhiều lựa chọn cùng một lúc trong danh sách thả xuống.
+c. Xác định kích thước của danh sách thả xuống.
+d. Xác định số lượng cột trong danh sách thả xuống.
+Phản hồi
+The correct answer is: Cho phép người dùng chọn nhiều lựa chọn cùng một lúc trong danh sách thả xuống.
+Câu hỏi 23
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thuộc tính placeholder của phần tử <input> được sử dụng để làm gì?
+Hãy chọn một:
+a. Xác định một văn bản gợi ý mà người dùng sẽ thấy trong ô nhập liệu trước khi họ nhập bất kỳ giá trị nào.
+b. Xác định kích thước của ô nhập liệu.
+c. Xác định xem ô nhập liệu có thể được người dùng nhập hay không.
+d. Xác định màu sắc của ô nhập liệu.
+Phản hồi
+The correct answer is: Xác định một văn bản gợi ý mà người dùng sẽ thấy trong ô nhập liệu trước khi họ nhập bất kỳ giá trị nào.
+Câu hỏi 24
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thẻ <style> trong HTML được sử dụng để làm gì?
+Hãy chọn một:
+a. Chèn một video vào trang web
+b. Đặt màu nền cho trang web
+c. Định nghĩa các luật CSS nội tại cho trang web
+d. Tạo một liên kết đến một trang khác
+Phản hồi
+The correct answer is: Định nghĩa các luật CSS nội tại cho trang web
+Câu hỏi 25
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thuộc tính align của phần tử <legend> được sử dụng để làm gì?
+Hãy chọn một:
+a. Xác định cách hiển thị vị trí của tiêu đề <legend>.
+b. Xác định kích thước của tiêu đề <legend>.
+c. Xác định số lượng cột trong tiêu đề <legend>.
+d. Xác định màu sắc của tiêu đề <legend>.
+Phản hồi
+The correct answer is: Xác định cách hiển thị vị trí của tiêu đề <legend>.
+Câu hỏi 26
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thẻ <form> trong HTML có vai trò gì trong việc tạo các biểu mẫu trên trang web?
+Hãy chọn một:
+a. Thẻ <form> trong HTML được sử dụng để tạo các biểu mẫu trên trang web.
+b. Thẻ <form> không có vai trò cụ thể nào trong HTML.
+c. Thẻ <form> Để tạo các danh sách thả xuống (dropdown lists) trên trang web.
+d. Thẻ <form> Để hiển thị các hình ảnh trên trang web.
+Phản hồi
+The correct answer is: Thẻ <form> trong HTML được sử dụng để tạo các biểu mẫu trên trang web.
+Câu hỏi 27
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Sự kết hợp của thuộc tính max-width:100% và height:auto trong đoạn mã <img>, đảm bảo điều gì về hiển thị hình ảnh trên trang web?
+Hãy chọn một:
+a. Không có tác dụng gì đặc biệt trong việc hiển thị hình ảnh.
+b. Tạo ra hình ảnh với tỷ lệ chiều rộng và chiều cao là 100%.
+c. Đảm bảo rằng hình ảnh sẽ hiển thị với chiều rộng tối đa là 100% của phần tử chứa và tỷ lệ chiều cao tự động điều chỉnh để duy trì tỷ lệ gốc.
+d. Tạo ra hình ảnh với kích thước cố định là 100% và không bị thay đổi tỷ lệ.
+Phản hồi
+The correct answer is: Đảm bảo rằng hình ảnh sẽ hiển thị với chiều rộng tối đa là 100% của phần tử chứa và tỷ lệ chiều cao tự động điều chỉnh để duy trì tỷ lệ gốc.
+Câu hỏi 28
+Hoàn thành
+Đạt điểm 0,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thuộc tính width của phần tử <input> có ảnh hưởng đến ô nhập liệu như thế nào?
+Hãy chọn một:
+a. Thuộc tính width xác định xem ô nhập liệu có thể được người dùng nhập hay không.
+b. Thuộc tính width xác định chiều rộng của ô nhập liệu.
+c. Thuộc tính width xác định màu sắc của ô nhập liệu.
+d. Thuộc tính width không phải là một thuộc tính hợp lệ của phần tử <input>. Phần tử <input> không có thuộc tính width.
+Phản hồi
+The correct answer is: Thuộc tính width không phải là một thuộc tính hợp lệ của phần tử <input>. Phần tử <input> không có thuộc tính width.
+Câu hỏi 29
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Giá trị type="radio" của thuộc tính type trong thẻ <input> được sử dụng để làm gì?
+Hãy chọn một:
+a. Được sử dụng để tạo một trường nhập dữ liệu văn bản.
+b. không có mô tả cụ thể và có thể sử dụng theo ý muốn.
+c. Được sử dụng để tạo một ô chọn (radio button) trong biểu mẫu.
+d. Được sử dụng để tạo một trường nhập dữ liệu dạng số trong biểu mẫu.
+Phản hồi
+The correct answer is: Được sử dụng để tạo một ô chọn (radio button) trong biểu mẫu.
+Câu hỏi 30
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Giá trị của thuộc tính type trong phần tử <input type="checkbox"> là gì và mục đích sử dụng của nó?
+Hãy chọn một:
+a. Giá trị của thuộc tính type là "text", là để tạo ô nhập liệu văn bản trong biểu mẫu.
+b. Giá trị của thuộc tính type là "radio", là để tạo nút radio trong biểu mẫu.
+c. Giá trị của thuộc tính type là "checkbox", là để tạo một ô chọn trong biểu mẫu, người dùng có thể đánh dấu (checked) hoặc bỏ đánh dấu (unchecked).
+d. Giá trị của thuộc tính type là "submit", là để tạo nút gửi trong biểu mẫu.
+Phản hồi
+The correct answer is: Giá trị của thuộc tính type là "checkbox", là để tạo một ô chọn trong biểu mẫu, người dùng có thể đánh dấu (checked) hoặc bỏ đánh dấu (unchecked).
+Câu hỏi 31
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Giá trị date của thuộc tính type trong thẻ <input> được sử dụng để làm gì?
+Hãy chọn một:
+a. Giá trị date của thuộc tính type được sử dụng để tạo nút radio.
+b. Giá trị date của thuộc tính type trong thẻ <input> được sử dụng để tạo một trường nhập dữ liệu cho ngày tháng.
+c. Giá trị date của thuộc tính type được sử dụng để tạo một nút gửi biểu mẫu.
+d. Giá trị date của thuộc tính type được sử dụng để tạo danh sách thả xuống.
+Phản hồi
+The correct answer is: Giá trị date của thuộc tính type trong thẻ <input> được sử dụng để tạo một trường nhập dữ liệu cho ngày tháng.
+Câu hỏi 32
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thuộc tính required của thẻ <input> được sử dụng để làm gì?
+Hãy chọn một:
+a. Không có giá trị mặc định nào.
+b. Được sử dụng để xác định màu sắc của trường nhập dữ liệu.
+c. Được sử dụng để yêu cầu người dùng phải nhập dữ liệu vào trường nhập dữ liệu trước khi gửi biểu mẫu.
+d. Giá trị của thuộc tính required không quan trọng và có thể để trống.
+Phản hồi
+The correct answer is: Được sử dụng để yêu cầu người dùng phải nhập dữ liệu vào trường nhập dữ liệu trước khi gửi biểu mẫu.
+Câu hỏi 33
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Khi bạn sử dụng thẻ <article>, nó thường được dùng để chứa nội dung gì?
+Hãy chọn một:
+a. Chứa danh sách thông tin liên quan.
+b. Chứa danh sách liên kết đến các trang web khác.
+c. Chứa một đoạn văn bản mô tả.
+d. Thường được sử dụng để chứa nội dung độc lập, tự đủ nguyên để hiểu nội dung mà không cần phụ thuộc vào bất kỳ phần nào khác trong trang web.
+Phản hồi
+The correct answer is: Thường được sử dụng để chứa nội dung độc lập, tự đủ nguyên để hiểu nội dung mà không cần phụ thuộc vào bất kỳ phần nào khác trong trang web.
+Câu hỏi 34
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thẻ <section> trong HTML thường được sử dụng để làm gì?
+Hãy chọn một:
+a. Chứa danh sách liên kết
+b. Đặt màu nền cho phần của trang web
+c. Chứa thông tin liên quan
+d. Chia nội dung thành các phần riêng biệt có thể định nghĩa bằng tiêu đề
+Phản hồi
+The correct answer is: Chia nội dung thành các phần riêng biệt có thể định nghĩa bằng tiêu đề
+Câu hỏi 35
+Hoàn thành
+Đạt điểm 0,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Hãy hoàn thiện đoạn mã sau để xác định mô tả của trang web: <meta name="description" ___="Mô tả thông tin trên trang web">
+Hãy chọn một:
+a. name
+b. content
+c. description
+d. detail
+Phản hồi
+The correct answer is: content
+Câu hỏi 36
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Thuộc tính target có thể được sử dụng để đặt liên kết sao cho nó mở trong một tab hoặc cửa sổ trình duyệt mới. Giá trị nào của thuộc tính target sẽ đạt được điều này?
+Hãy chọn một:
+a. _parent
+b. _self
+c. _top
+d. _blank
+Phản hồi
+The correct answer is: _blank
+Câu hỏi 37
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Mục đích sử dụng của câu lệnh <input type="email"> là gì trong HTML?
+Hãy chọn một:
+a. Là để tạo nút button trong biểu mẫu.
+b. Là để tạo ô nhập liệu email trong biểu mẫu, giúp người dùng nhập địa chỉ email một cách đơn giản và kiểm tra tính hợp lệ của địa chỉ đó.
+c. Là để tạo ô chọn trong biểu mẫu.
+d. Là để tạo ô nhập liệu văn bản trong biểu mẫu.
+Phản hồi
+The correct answer is: Là để tạo ô nhập liệu email trong biểu mẫu, giúp người dùng nhập địa chỉ email một cách đơn giản và kiểm tra tính hợp lệ của địa chỉ đó.
+Câu hỏi 38
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, thẻ <aside> thường được sử dụng để làm gì?
+Hãy chọn một:
+a. Được sử dụng để nhúng tệp âm thanh vào trang web.
+b. Được sử dụng để đánh dấu nội dung bên cạnh nội dung chính, thường là thông tin bổ sung hoặc liên quan.
+c. Được sử dụng để tạo các liên kết đến trang khác.
+d. Được sử dụng để tạo phần chính của trang web.
+Phản hồi
+The correct answer is: Được sử dụng để đánh dấu nội dung bên cạnh nội dung chính, thường là thông tin bổ sung hoặc liên quan.
+Câu hỏi 39
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Phần style="max-width:100%;height:auto;" trong đoạn mã <img> có tác dụng gì đối với hiển thị hình ảnh?
+Hãy chọn một:
+a. Xác định đường dẫn đến tệp hình ảnh.
+b. Đảm bảo rằng hình ảnh sẽ có chiều rộng tối đa là 100% của phần tử chứa và tỷ lệ chiều cao tự động điều chỉnh để duy trì tỷ lệ gốc.
+c. Xác định mô tả của hình ảnh.
+d. Xác định kích thước tệp hình ảnh.
+e. Có, để xác định mô tả của hình ảnh.
+Phản hồi
+The correct answer is: Đảm bảo rằng hình ảnh sẽ có chiều rộng tối đa là 100% của phần tử chứa và tỷ lệ chiều cao tự động điều chỉnh để duy trì tỷ lệ gốc.
+Câu hỏi 40
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Mục đích sử dụng của câu lệnh <input type="date"> là gì trong HTML?
+Hãy chọn một:
+a. Là để tạo ô chọn trong biểu mẫu.
+b. Là để tạo ô nhập liệu ngày tháng (date picker) trong biểu mẫu, giúp người dùng chọn một ngày cụ thể từ một lịch.
+c. Là để tạo ô nhập liệu văn bản trong biểu mẫu.
+d. Là để tạo nút button trong biểu mẫu.
+Phản hồi
+The correct answer is: Là để tạo ô nhập liệu ngày tháng (date picker) trong biểu mẫu, giúp người dùng chọn một ngày cụ thể từ một lịch.
+Câu hỏi 41
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML5, phần tử <header> thường được sử dụng để chứa gì?
+Hãy chọn một:
+a. Hình ảnh nền
+b. Danh sách liên kết
+c. Phần đầu trang web chứa tiêu đề, logo, và các liên kết quan trọng
+d. Nội dung chính của trang web
+Phản hồi
+The correct answer is: Phần đầu trang web chứa tiêu đề, logo, và các liên kết quan trọng
+Câu hỏi 42
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử nào được sử dụng để tạo một đoạn văn bản có thể được trích dẫn hoặc đặt làm địa chỉ trong văn bản?
+Hãy chọn một:
+a. <blockquote>
+b. <q>
+c. <i>
+d. <cite>
+Phản hồi
+The correct answer is: <blockquote>
+Câu hỏi 43
+Hoàn thành
+Đạt điểm 0,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử nào được sử dụng để chèn một nguồn âm thanh hoặc video trong trang web?
+Hãy chọn một:
+a. <video>
+b. <embed>
+c. <media>
+d. <audio>
+Phản hồi
+The correct answer is: <audio>
+Câu hỏi 44
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử nào được sử dụng để tạo danh sách chọn (dropdown list) trong một biểu mẫu?
+Hãy chọn một:
+a. <input type="text">
+b. <button>
+c. <textarea>
+d. <select>
+Phản hồi
+The correct answer is: <select>
+Câu hỏi 45
+Hoàn thành
+Đạt điểm 0,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử nào được sử dụng để tạo một đường kẻ ngang ngang trên trang web?
+Hãy chọn một:
+a. <horizontal>
+b. <hr>
+c. <line>
+d. <divider>
+Phản hồi
+The correct answer is: <hr>
+Câu hỏi 46
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML5, phần tử <nav> thường được sử dụng để làm gì?
+Hãy chọn một:
+a. Tiêu đề trang web
+b. Phần chứa các liên kết điều hướng trên trang web
+c. Hình ảnh nền
+d. Danh sách liên kết
+Phản hồi
+The correct answer is: Phần chứa các liên kết điều hướng trên trang web
+Câu hỏi 47
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML5 phần tử mới để chèn video là gì?
+Hãy chọn một:
+a. <clip>
+b. <video>
+c. <movie>
+d. <media>
+Phản hồi
+The correct answer is: <video>
+Câu hỏi 48
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử <a> có thuộc tính nào được sử dụng để xác định liên kết đến tài liệu tải về (ví dụ: PDF hoặc hình ảnh)?
+Hãy chọn một:
+a. href
+b. target
+c. download
+d. rel
+Phản hồi
+The correct answer is: href
+Câu hỏi 49
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử nào được sử dụng để thêm hình ảnh vào trang web?
+Hãy chọn một:
+a. <img>
+b. <picture>
+c. <photo>
+d. <image>
+Phản hồi
+The correct answer is: <img>
+Câu hỏi 50
+Hoàn thành
+Đạt điểm 1,00 trên 1,00
+Không gắn cờĐặt cờ
+Đoạn văn câu hỏi
+Trong HTML, phần tử <cite> được sử dụng để làm gì?
+Hãy chọn một:
+a. Chèn hình ảnh
+b. Tạo biểu đồ cột
+c. Tạo danh sách
+d. Chú thích một tài liệu hoặc tài liệu tham khảo
+Phản hồi
+The correct answer is: Chú thích một tài liệu hoặc tài liệu tham khảo

@@ -1,0 +1,101 @@
+<!-- Bài tập 33-2, sử dụng grid-template-areas Và grid-area tạo layout
+theo mẫu sau: (demo1 , demo2) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 33-2C3P3</title>
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "Header Header Header"
+            "Menu   Main    Right"
+            "Menu Footer Footer";
+    }
+
+    .grid-item {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        font-size: 20px;
+        text-align: center;
+        background-color: rgb(238, 255, 0);
+        border: 3px solid orange;
+
+    }
+
+    .Header {
+        grid-area: Header;
+    }
+
+    .Main {
+        grid-area: Main;
+    }
+
+    .Menu {
+        grid-area: Menu;
+    }
+
+    .Right {
+        grid-area: Right;
+    }
+
+    .Footer {
+        grid-area: Footer;
+    }
+
+    @media (max-width: 1024px) {
+        .grid-container {
+            grid-template-columns: auto auto;
+            grid-template-areas:
+                "Header Header"
+                "Menu   Main"
+                "Right Footer";
+        }
+
+
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                    "Header"
+                    "Menu"
+                    "Main"
+                    "Right"
+                    "Footer";
+            }
+        }
+
+        @media (max-width: 640px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                    "Header"
+                    "Main"
+                    "Menu"
+                    "Right"
+                    "Footer";
+            }
+        }
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item Header">Header</div>
+        <div class="grid-item Menu">Menu</div>
+        <div class="grid-item Main">Main</div>
+        <div class="grid-item Right">Right</div>
+        <div class="grid-item Footer">Footer</div>
+    </div>
+</body>
+
+</html>

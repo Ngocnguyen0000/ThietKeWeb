@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobiFone Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.intro {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    /* text-align: center; */
+}
+
+.card img {
+    width: 100%;
+    /* border-radius: 8px; */
+}
+
+.card h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Responsive for tablets */
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+/* Responsive for desktop */
+@media (max-width: 1024px) {
+    .card {
+        width: 45%;
+    }
+}
+
+</style>
+<body>
+    <div class="container">
+        <h1>MobiFone</h1>
+        <p class="intro">Là mạng viễn thông di động đầu tiên tại Việt Nam, MobiFone được thành lập ngày 16/04/1993 với tên gọi ban đầu là Công ty thông tin di động (VMS). Ngày 01/12/2014, MobiFone được chuyển đổi thành Tổng công ty Viễn thông MobiFone, thuộc Bộ Thông tin và Truyền thông.</p>
+        
+        <div class="cards">
+            <div class="card">
+                <img src="/Chapter03/img/c31.jpg" alt="Sứ mệnh">
+                <h2>Sứ mệnh</h2>
+                <p>Với MobiFone, sứ mệnh là không ngừng đổi mới, sáng tạo và tạo dựng hệ sinh thái số hoàn chỉnh, đáp ứng mọi nhu cầu, đánh thức mọi tiềm năng.</p>
+            </div>
+            <div class="card">
+                <img src="/Chapter03/img/c32.jpg" alt="Định hướng hoạt động">
+                <h2>Định hướng hoạt động</h2>
+                <p>MobiFone duy trì là doanh nghiệp nhà nước chủ lực quốc gia về cung cấp các dịch vụ số, phát triển dịch vụ viễn thông di động.</p>
+            </div>
+            <div class="card">
+                <img src="/Chapter03/img/c33.jpg" alt="Giá trị cốt lõi">
+                <h2>Giá trị cốt lõi</h2>
+                <p>Trước bối cảnh mới, MobiFone tập trung phát triển dịch vụ số và thực hiện định hướng văn hóa mới.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

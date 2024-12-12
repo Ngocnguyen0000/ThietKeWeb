@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events Example</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #hoverArea {
+            border: 2px solid red;
+            padding: 10px;
+            width: auto;
+        }
+
+        .container {
+            border: 2px dashed black;
+            padding: 20px;
+            height: auto;
+        }
+
+    </style>
+
+    <script>
+        function mouseOver() {
+            document.getElementById("message").innerHTML = "Bạn đang di chuột vào ngoài đoạn văn!";
+        }
+
+        function mouseOut() {
+            document.getElementById("message").innerHTML = "Bạn đã chuột ra ngoài đoạn văn!";
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Di chuột vào đoạn văn</h1>
+        <p>Đây là đoạn văn. Hãy thử di chuột vào nó!</p>
+        <div id="hoverArea" onmouseover="mouseOver()" onmouseout="mouseOut()">
+            <p id="message">Bạn đã di chuột ra ngoài đoạn văn!</p>
+        </div>
+    </div>
+</body>
+
+</html>

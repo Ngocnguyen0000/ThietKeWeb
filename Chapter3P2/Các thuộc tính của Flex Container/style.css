@@ -1,0 +1,45 @@
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end; }
+    .box {
+    background-color: #58257b;
+    width: 100px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 30px; }
+    .box1{line-height: 150px;}
+    .box2{line-height: 300px;}
+    .box3{line-height: 100px;}
+    .box4{line-height: 250px;}
+    .box4{line-height: 250px;} */
+/* 
+    .box {
+        background-color: #58257b;
+        width: 270px;
+        height: 200px;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        } 
+    .box2{
+        flex-shrink: 2;
+    }
+    .box3{
+        flex-shrink: 3;
+    }
+
+    /* .box {
+        background-color: #58257b;
+        width: 100px;
+        height: 200px;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        flex-grow: 1;
+        } 
+    .box2{flex-grow: 2;}
+        .box3{flex-grow: 5;} */

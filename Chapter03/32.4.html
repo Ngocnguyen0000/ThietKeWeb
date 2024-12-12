@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "aside1 main aside2"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+header {
+    grid-area: header;
+    background-color: #ff6347;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #47f3ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.aside1 {
+    grid-area: aside1;
+    background-color: #ffd700;
+    padding: 20px;
+}
+
+.aside2 {
+    grid-area: aside2;
+    background-color: #ff00dd;
+    padding: 20px;
+}
+
+
+
+main {
+    grid-area: main;
+    background-color: #00bfff;
+    padding: 20px;
+}
+
+
+
+</style>
+<body>
+    <div class="container">
+        <header>Header</header>
+        <aside class="aside1">Aside 1</aside>
+        <main>Main Content</main>
+        <aside class="aside2">Aside 2</aside>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "menu main right"
+        "menu footer footer"
+        "menu . .";
+    height: 50vh;
+    border-radius: 5px;
+}
+
+.header {
+    grid-area: header;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #ffcc99;
+    border: 3px solid orange;
+}
+
+.menu {
+    grid-area: menu;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #ffcc99;
+    border: 3px solid orange;
+}
+
+.main {
+    grid-area: main;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #ffcc99;
+    border: 3px solid orange;
+}
+
+.right {
+    grid-area: right;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #ffcc99;
+    border: 3px solid orange;
+}
+
+.footer {
+    grid-area: footer;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #ffcc99;
+    border: 3px solid orange;
+}
+
+/* Responsive cho màn hình nhỏ hơn 1024px */
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr auto;
+        grid-template-areas:
+            "header header"
+            "menu main"
+            "menu right"
+            "footer footer";
+    }
+}
+
+/* Responsive cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            "header"
+            "menu"
+            "main"
+            "right"
+            "footer";
+    }
+}
+
+/* Responsive cho màn hình nhỏ hơn 640px */
+@media (max-width: 640px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            "header"
+            "menu"
+            "main"
+            "right"
+            "footer";
+    }
+}

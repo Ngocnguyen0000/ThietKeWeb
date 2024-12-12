@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C3P3-Bai33-3</title>
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+</head>
+
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .header {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .header p {
+        font-size: 20px;
+        color: black;
+    }
+
+    .header button {
+        background-color: rgb(32, 45, 192);
+        color: white;
+        font-size: 14px;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 cột cố định */
+        gap: 20px;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+        padding: 20px;
+        text-align: center;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .icon {
+        font-size: 2em;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+    .name-card {
+        font-weight: 700;
+        margin: 10px 0;
+    }
+
+    .content {
+        color: #666;
+        font-size: 0.9em;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <h1>A Warm Welcome!</h1>
+        <p>Bootstrap utility classes are used to create this jumbotron since the old component has been
+            removed from the framework. Why create custom CSS when you can use utilities?
+        </p>
+        <button>Call to action</button>
+    </div>
+
+    <!-- Grid container for cards -->
+    <div class="grid-container">
+        <div class="card">
+            <div class="icon"><i class="bi bi-layout-text-sidebar"></i></div>
+            <div class="name-card">Fresh new layout</div>
+            <div class="content">With Bootstrap 5, we've created a fresh new layout for this template!</div>
+        </div>
+
+        <div class="card">
+            <div class="icon"><i class="bi bi-download"></i></div>
+            <div class="name-card">Free to download</div>
+            <div class="content">As always, Start Bootstrap has a powerful collection of free templates.</div>
+        </div>
+
+        <div class="card">
+            <div class="icon"><i class="bi bi-box"></i></div>
+            <div class="name-card">Feature boxes</div>
+            <div class="content">We've created some custom feature boxes using Bootstrap icons!</div>
+        </div>
+
+        <div class="card">
+            <div class="icon"><i class="bi bi-code-slash"></i></div>
+            <div class="name-card">Simple clean code</div>
+            <div class="content">We keep our dependencies up to date and squash bugs as they come!</div>
+        </div>
+
+        <div class="card">
+            <div class="icon"><i class="bi bi-shield-check"></i></div>
+            <div class="name-card">A name you trust</div>
+            <div class="content">Start Bootstrap has been the leader in free Bootstrap templates since 2013!</div>
+        </div>
+
+        <div class="card">
+            <div class="icon"><i class="bi bi-heart"></i></div>
+            <div class="name-card">Built with love</div>
+            <div class="content">Our templates are crafted with care and attention to detail.</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
